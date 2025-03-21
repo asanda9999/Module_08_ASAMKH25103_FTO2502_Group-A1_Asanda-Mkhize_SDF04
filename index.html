@@ -3,17 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Footer</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+        </style>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+            </style>
 </head>
 <body>
-    <footer class="bg-[#659f8f] dark:bg-[#313131]">
+
+    <footer class="footer">
         <div class="container px-6 py-12 mx-auto">
-            <div class="flex">
-                <a href="#">
-                    <img class="w-auto h-7" src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="CodeSpace Logo">
-                </a>
+            <div class="sub">
+                <h2>Subscribe to our newsletter for updates.</h2>
+                <form>
+                    <input type="email" placeholder="Email Address" required />
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+            <div class="quick-links">
+                <h3>Quick Link</h3>
+                <ul>
+                    <li>Home</li>
+
+                    <li>Who We Are</li>
+
+                    <li>Our Philosophy</li>
+                </ul>
+            </div>
+            <div class="tech">
+                <h3>Technologies</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
             </div>
         </div>
+        <div class="logo">
+            <hr />
+            <img src="https://codespace-assets.global.ssl.fastly.net/wp/assets/website/codespace-primary-logo-light.svg" alt="CodeSpace Logo">
+        </div>
     </footer>
+    
+
 </body>
 </html>
